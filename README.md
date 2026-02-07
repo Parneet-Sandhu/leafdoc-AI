@@ -93,11 +93,9 @@ app/
 │
 ├─ model_utils.py             # Model loading and inference functions
 ├─ groq_utils.py              # Groq API integration for disease explanations
-├─ utils.py                   # Image preprocessing & helper functions
 ├─ app.py                     # Streamlit interface for users
 ├─ .env                       # Environment variables (GROQ_API_KEY)
 ├─ requirements.txt           # Python dependencies
-└─ Media/                     # Sample leaf images for testing
 ```
 
 ## Implementation Highlights
