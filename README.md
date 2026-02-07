@@ -1,6 +1,3 @@
-Here's the document in proper Markdown format:
-
-```markdown
 # 🪴 AI-Powered Leaf Disease Detection System
 
 ## Project Overview
@@ -63,7 +60,6 @@ Crop diseases cause severe agricultural and economic losses worldwide. Tradition
 5. **Output Formatting:** Structured JSON result for Streamlit interface.
 
 ### Example Output
-
 ```
 🦠 Leaf Spot Disease (Cercospora leaf spot)
 Type: fungal
@@ -87,7 +83,6 @@ Treatment
 ```
 
 ## Project Structure
-
 ```
 app/
 │
@@ -130,28 +125,28 @@ app/
 ## Installation and Usage
 
 1. Clone the repository:
-   ```bash
+```bash
    git clone <repo-url>
    cd app
-   ```
+```
 
 2. Set up virtual environment and install dependencies:
-   ```bash
+```bash
    python -m venv venv
    source venv/bin/activate      # macOS/Linux
    .\venv\Scripts\activate       # Windows
    pip install -r requirements.txt
-   ```
+```
 
 3. Set environment variables in `.env`:
-   ```
+```
    GROQ_API_KEY=your_groq_api_key
-   ```
+```
 
 4. Launch the Streamlit app:
-   ```bash
+```bash
    streamlit run app.py
-   ```
+```
 
 5. Upload a leaf image and view disease predictions with explanations.
 
@@ -160,4 +155,3 @@ app/
 - **PlantVillage Dataset:** https://www.kaggle.com/datasets/brandondfors/plant-diseases-plantvillage-dataset
 - **Hugging Face Vision Transformer:** https://huggingface.co/docs/transformers/model_doc/vit
 - **Groq API Documentation:** https://docs.groq.com
-```
